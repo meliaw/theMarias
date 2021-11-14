@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Roboto:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f2dd;
+}
+
+#albumContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: 15%;
+  padding-bottom: 10%;
+}
+
+.albumItem {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.artContainer {
+  width: 75%;
+  /* margin-top: 10%; */
+  margin-bottom: 5%;
+}
+
+.art {
+  width: 100%;
+  transition: transform .8s;
+}
+
+.art:hover {
+  transform: scale(1.5);
+  box-shadow: 0px 0px 20px 10px #ff2937;
+}
+
+.headContainer {
+  /* background-color: #fff; */
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.title {
+  color: #780018;
+  font-family: Asset;
+  font-size: 22px;
+  overflow-wrap: break-word;
+}
+
+.yearContainer {
+  margin-top: -20px;
+  overflow-wrap: break-word;
+}
+
+.year {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.listContainer {
+  /* background-color: #fff; */
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Roboto;
+  overflow-wrap: break-word;
+}
+
+.heroContainer {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#the {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  font-family: Roboto;
+  font-size: 40px;
+  color: #be0026;
+}
+
+#hero {
+  font-family: Asset;
+  font-size: 100px;
+  color: #be0026;
+}
+
+.gifContainer {
+  display: flex;
+  justify-content: center;
+}
